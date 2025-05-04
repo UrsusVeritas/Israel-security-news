@@ -1,10 +1,10 @@
 # CyberSentinel
 
-CyberSentinel is a real-time news parser and alerting system focused on cybersecurity threats. 
+CyberSentinel is a real-time news parser and alerting system for critical news. 
 It gathers and filters the latest critical news from trusted sources using Python, helping analysts and engineers stay ahead of threats.
 
 ## 🚀 Features
-- Pulls news from cybersecurity sources (RSS/HTML)
+- Pulls news from news sources (RSS/HTML)
 - Filters for critical keywords (e.g. CVE, exploit, ransomware)
 - Saves results in JSON
 - Modular, extendable structure for future bots/alerts
