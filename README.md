@@ -1,7 +1,6 @@
-# CyberSentinel
+# Israel-security-news
 
-CyberSentinel is a real-time news parser and alerting system for critical news. 
-It gathers and filters the latest critical news from trusted sources using Python, helping analysts and engineers stay ahead of threats.
+Python application that scrapes and aggregates real-time English-language news related to national security and cybersecurity events in Israel. The system collects articles from multiple sources (Times of Israel, Jerusalem Post, i24News), filters content using a custom keyword list (e.g., cyberattacks, terror, fire, IDF, etc.), and stores the results in structured JSON format. Designed with modular architecture and clean separation of logic. Ready for future extensions like alerts, dashboards, or ML classification.
 
 ## 🚀 Features
 - Pulls news from news sources (RSS/HTML)
@@ -26,8 +25,8 @@ cybersentinel/
 
 ## ⚙️ Installation
 ```bash
-git clone https://github.com/yourusername/cybersentinel.git
-cd cybersentinel
+git clone https://github.com/yourusername/Israel-security-news.git
+cd Israel-security-news
 pip install -r requirements.txt
 python src/main.py
 ```
